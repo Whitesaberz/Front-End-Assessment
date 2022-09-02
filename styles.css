@@ -1,0 +1,85 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  border-bottom: 2px solid orange;
+}
+
+ol {
+  padding-left: 0;
+}
+
+.crumb {
+  margin-right: 2em;
+  display: inline;
+}
+
+#profile-h1 {
+  background-color: blueviolet;
+  border: 1px solid black;
+  color: azure;
+  padding: 10px;
+  margin-top: auto;
+  font-weight: bold;
+  font-size: 36pt;
+  text-align: center;
+}
+#profile-h1 > span {
+  font-size: large;
+  padding: 150px;
+  text-align: center;
+}
+
+.check-section {
+  background-color: lightblue;
+  margin-left: 0.5in;
+  margin-right: 0.5in;
+  font-family: "katsumi";
+}
+
+.know {
+  background-color: yellow;
+  border-radius: 50%;
+  height: 60px;
+  font-family: katsumi;
+}
+
+a {
+  color: orange;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5in;
+}
+
+a:visited {
+  color: crimson;
+}
+
+input {
+  display: block;
+}
+
+img {
+  max-width: 300px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 15px;
+  vertical-align: top;
+}
+
+.label-text {
+  display: inline-block;
+  width: 200px;
+  word-break: break-all;
+}
